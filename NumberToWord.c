@@ -2,8 +2,9 @@
 
 #include <stdio.h>
 
-int main(){
+void main(){
     int a, b , n ,i;
+    printf("Enter A and B Value:");
     scanf("%d\n%d", &a, &b);
     
     for (i=a;i<=b;i++){
@@ -27,5 +28,4 @@ int main(){
         }
     }
     getch();
-    return 0;
 }
